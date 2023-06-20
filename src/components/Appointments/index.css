@@ -1,0 +1,132 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(
+    to bottom,
+    #fbc7d4,
+    #9897f0,
+    #9796f0,
+    #8b5cf6
+  );
+  background-size: cover;
+  height: 100vh;
+  padding: 40px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.appointment-app-container {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+}
+.app-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.entry-details-container {
+}
+.appointment-heading {
+  color: #171f46;
+  margin-bottom: 45px;
+}
+.input-element-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.text-input-label {
+  color: #b5b7c4;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.input-text {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  padding: 5px;
+}
+.date-element-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.date-input-label {
+  color: #b5b7c4;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.input-date {
+  width: 300px;
+  height: 35px;
+  outline: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  height: 35px;
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+  border: 0px solid;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.top-section-image-container {
+}
+
+.app-bottom-section {
+}
+.heading-starred-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-heading-bottom {
+  color: #171f46;
+  font-size: 25px;
+}
+.starred-button-inActive {
+  background-color: transparent;
+  color: #b5b7c4;
+  border: 2px solid #b5b7c4;
+  border-radius: 20px;
+  height: 30px;
+  width: 90px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.starred-button-active {
+  background-color: #8b5cf6;
+  color: #b5b7c4;
+  border: 0px solid #b5b7c4;
+  border-radius: 20px;
+  height: 30px;
+  width: 90px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.appointments-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+}

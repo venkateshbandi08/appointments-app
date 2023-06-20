@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.appointment-style {
+  border: 2px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 8px;
+  width: 400px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.appointName-starredButton-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-name {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.star-image {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+}
+.appointment-date {
+  color: #171f46;
+  font-family: 'Roboto';
+  margin-top: -1px;
+}
